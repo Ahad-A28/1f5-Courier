@@ -1,0 +1,53 @@
+{
+  "name": "1f5-courier-remaster",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "set CI=false && vite build",
+    "preview": "vite preview",
+    "clean": "rimraf dist node_modules",
+    "prebuild": "npm install --legacy-peer-deps"
+  },
+  "dependencies": {
+    "@gsap/react": "^2.1.1",
+    "@lottiefiles/dotlottie-react": "^0.13.2",
+    "@studio-freight/react-lenis": "^0.0.47",
+    "firebase": "^11.1.0",
+    "lenis": "^1.3.8",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-helmet-async": "^2.0.5",
+    "react-icons": "^5.4.0",
+    "react-router": "^6.22.3",
+    "react-router-dom": "^6.22.3",
+    "react-scroll": "^1.9.0",
+    "react-toastify": "^11.0.2",
+    "terser": "^5.39.0",
+    "vite-plugin-compression": "^0.5.1",
+    "xlsx": "^0.18.5"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.66",
+    "@types/react-dom": "^18.2.22",
+    "@vitejs/plugin-react": "^4.2.1",
+    "autoprefixer": "^10.4.18",
+    "eslint": "^8.57.0",
+    "eslint-plugin-react": "^7.34.1",
+    "eslint-plugin-react-hooks": "^4.6.0",
+    "eslint-plugin-react-refresh": "^0.4.6",
+    "postcss": "^8.4.49",
+    "rimraf": "^5.0.1",
+    "tailwindcss": "^3.4.17",
+    "vite": "^5.1.6"
+  },
+  "engines": {
+    "node": "20.x",
+    "npm": "10.x"
+  },
+  "description": "This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.",
+  "main": "eslint.config.js",
+  "author": "",
+  "license": "ISC"
+}
